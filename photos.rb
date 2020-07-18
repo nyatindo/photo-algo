@@ -1,6 +1,5 @@
 def take_pics(num)
   return 1 if num == 1
-  arr = []
   max = num
   even = (1...max).count { |n| n.even? }
   odd = even = (1...max).count { |n| n.odd? }
